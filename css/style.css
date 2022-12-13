@@ -1,0 +1,59 @@
+@import "reset.css";
+@import "status-bar.css";
+@import "var.css";
+
+.welcome-header {
+    margin-top: 93px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.welcome-header h4 {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.welcome-header p {
+    width: 50%;
+    opacity: 0.7;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+.login-form input {
+    border: none;
+    padding: 15px 0px;
+    font-size: 18px;
+}
+.login-form input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    margin-bottom: 20px;
+    transition: border-color .3s ease-in-out;
+}
+
+
+.login-form input::placeholder {
+    opacity: 0.6;
+}
+
+.login-form input:focus {
+    border-color: var(--yellow);
+} 
+input[type="submit"] {
+    background-color: var(--yellow);
+    cursor: pointer;
+    padding: 20px 0px;
+    border-radius: 5px;
+}
+.login-form a {
+    margin-top: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
