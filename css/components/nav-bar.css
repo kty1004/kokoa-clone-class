@@ -1,0 +1,49 @@
+.nav {
+    background-color: #f9f9f9fa;
+    padding:20px 50px;
+    border-top: 1px solid rgba(121, 121, 121, 0.3);
+    position: fixed;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    
+}
+
+
+
+.nav__ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__li {
+    color: #2e363e;
+    position: relative;
+}
+
+.nav__notification {
+    background-color: tomato;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    
+    position: absolute;
+    left: 9px;
+    bottom: 10px;
+}
+.ellipsis-dotted {
+    width: 5px;
+    height: 5px;
+    background-color: tomato;
+    border-radius: 50%;
+    position: relative;
+    left: 16px;
+    
+}
