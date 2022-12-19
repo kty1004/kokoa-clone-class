@@ -25,9 +25,9 @@ body {
     width: 100vw;
 }
 #login-main {
-    display: block;
-    position: sticky;
-    top: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
 }
 
 .welcome-header {
