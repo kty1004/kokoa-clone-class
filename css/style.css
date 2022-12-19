@@ -2,13 +2,26 @@
 @import "components/status-bar.css";
 @import "var.css";
 @import "screens/login.css";
+@import "components/badge.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
 @import "screens/friends.css";
 @import "components/user-components.css";
+@import "screens/find.css";
+@import "screens/more.css";
+
+@import "components/icon-row.css";
+@import "screens/settings.css";
+@import "components/alt-screen-header.css";
+@import "screens/chatting-room.css";
+
+@import "components/no-mobile.css";
+
 
 body {
     color: #2e363e;
+    background-color: white;
+    height: 200vh;
 }
 
 
@@ -30,4 +43,8 @@ body {
 .welcome-header p {
     width: 50%;
     opacity: 0.7;
+}
+
+.main-screen {
+    padding: 0px var(--horizontal-space);
 }
